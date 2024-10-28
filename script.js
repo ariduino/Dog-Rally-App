@@ -1,7 +1,3 @@
-if (typeof navigator.serviceWorker !== 'undefined') {
-    navigator.serviceWorker.register ('service-worker.js')
-}
-
 const textInput = document.getElementById("textInput");
 
 function updateHref(){
