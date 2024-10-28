@@ -1,13 +1,13 @@
 {
 "name": "PWA dog rally app",
 "short_name": "dog rally",
-"start_url": "https://example.com",
+"start_url": "https://ariduino.github.io/Dog-Rally-App/index.html",
 "display": "standalone",
-"description": "dog rally sign app",
+"description": "Dog Rally sign app",
 "lang": " English",
 "dir": "auto",
-"theme_color": "#000000",
-"background_color": "#000000",
+"theme_color": "#23395d",
+"background_color": "#9e9e9e",
 "orientation": "any",
 "icons": [
     {
