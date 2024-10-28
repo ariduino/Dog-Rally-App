@@ -18,7 +18,11 @@
     
 </div>
 
-<script src="script.js"></script>
+<script src="script.js">
+    if (typeof navigator.serviceWorker |== 'undefined') {
+        navigator serviceWorker register('sw.js')
+    }
+</script>
 
 
 </body>
