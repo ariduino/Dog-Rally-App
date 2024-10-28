@@ -4,7 +4,7 @@
 "start_url": "https://ariduino.github.io/Dog-Rally-App/index.html",
 "display": "standalone",
 "description": "Dog Rally sign app",
-"lang": " English",
+"lang": "en",
 "dir": "auto",
 "theme_color": "#23395d",
 "background_color": "#9e9e9e",
@@ -68,5 +68,10 @@
         "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
         "description":"A description of the functionality of this shortcut"
     }
+],
+"display_override": [
+  "window-controls-overlay",
+  "standalone",
+  "browser"
 ]
 }
