@@ -1,13 +1,9 @@
+const goButton = document.getElementById("goButton");
 const textInput = document.getElementById("textInput");
+const videoTag = document.getElementById("videoPlayer");
 
-function updateHref(){
-    newHref = textInput.value;
-    newHref = newHref + ".html"; 
-    document.getElementById("goButton").href=newHref;
+function updateMedia(){
+    // textInput.value;
+    videoTag.src="test"+textInput.value;
 }
-
-textInput.addEventListener('input', updateHref);
-
-// textInput.addEventListener('input', function() {
-//     updateHref();
-// });
+goButton.addEventListener('click', updateMedia);
