@@ -4,7 +4,7 @@ const videoTag = document.getElementById("videoPlayer");
 
 function updateMedia(){
     // textInput.value;
-    // newVideo = "video/test" + textInput.value + ".mp4"
-    videoTag.src="video/test"+textInput.value+".mp4";
+    newVideo =   "video/test" + textInput.value + ".mp4";
+    videoTag.src=newVideo;
 }
 goButton.addEventListener('click', updateMedia);
